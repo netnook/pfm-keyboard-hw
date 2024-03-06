@@ -406,6 +406,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -2090,15 +2172,15 @@
 		(uuid "4c5edb84-e7f0-41ce-9ffc-bdafc29c5a58")
 	)
 	(no_connect
-		(at 87.63 151.13)
+		(at 80.01 151.13)
 		(uuid "9f4f4676-232a-4631-adf1-f66686d42de3")
 	)
 	(no_connect
-		(at 90.17 151.13)
+		(at 82.55 151.13)
 		(uuid "d514b39f-03da-45ac-b48c-4dce31d75430")
 	)
 	(no_connect
-		(at 85.09 151.13)
+		(at 71.12 130.81)
 		(uuid "de78c813-549c-46d7-8fc9-fa4ca764a004")
 	)
 	(wire
@@ -3541,7 +3623,7 @@
 	)
 	(global_label "SW_RD3"
 		(shape input)
-		(at 71.12 135.89 180)
+		(at 71.12 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3551,7 +3633,7 @@
 		)
 		(uuid "3b5fc9ec-0bbd-4268-ab3d-c770d5c7694d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7568 135.89 0)
+			(at 60.7568 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,22 +3909,22 @@
 	)
 	(global_label "SW_RC4"
 		(shape input)
-		(at 99.06 140.97 0)
+		(at 90.17 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5f62cdbe-156f-4ba1-83fd-b6bb0a312510")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.4232 140.97 0)
+			(at 90.17 161.4932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4091,22 +4173,22 @@
 	)
 	(global_label "SW_RE3"
 		(shape input)
-		(at 71.12 138.43 180)
+		(at 99.06 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "740aef0f-5350-4902-b60e-b0b2f619b4e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.8778 138.43 0)
+			(at 109.3022 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4311,7 +4393,7 @@
 	)
 	(global_label "SW_RE2"
 		(shape input)
-		(at 71.12 130.81 180)
+		(at 71.12 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4321,7 +4403,7 @@
 		)
 		(uuid "8d53ab0c-beb7-4f38-8eb3-745a9aedef9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.8778 130.81 0)
+			(at 60.8778 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4723,7 @@
 	)
 	(global_label "SW_RG3"
 		(shape input)
-		(at 82.55 151.13 270)
+		(at 87.63 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4651,7 +4733,7 @@
 		)
 		(uuid "abcc49bb-d341-4628-95a5-a0ba778b0f47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 161.4932 90)
+			(at 87.63 161.4932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5251,7 @@
 	)
 	(global_label "SW_RG2"
 		(shape input)
-		(at 80.01 151.13 270)
+		(at 85.09 151.13 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5179,7 +5261,7 @@
 		)
 		(uuid "da407798-e324-4357-8410-e9aa7e9d356e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 161.4932 90)
+			(at 85.09 161.4932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5273,7 @@
 	)
 	(global_label "SW_RB3"
 		(shape input)
-		(at 71.12 133.35 180)
+		(at 71.12 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5201,7 +5283,7 @@
 		)
 		(uuid "db9ebaea-2b8a-4024-9db4-6d945f0af8b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7568 133.35 0)
+			(at 60.7568 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,6 +5739,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0895e8dd-fd3c-45bb-947f-9b699e5b47e9")
+		(property "Reference" "M_L3"
+			(at 22.86 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 167.64 104.14 0)
 		(mirror y)
@@ -5790,6 +5936,70 @@
 			(project "pfm-keyboard"
 				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
 					(reference "SW_LE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1293179a-27b7-4375-b7ce-ba9865e08567")
+		(property "Reference" "M_L4"
+			(at 22.86 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 20.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_L4")
 					(unit 1)
 				)
 			)
@@ -6516,6 +6726,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37ffa3e8-02d1-4e9a-b5c3-2b87c53bf661")
+		(property "Reference" "M_R2"
+			(at 45.72 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 151.13 48.26 0)
 		(mirror y)
@@ -7143,6 +7417,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "644bad83-3ebb-4955-a3fd-f93658e97bd9")
+		(property "Reference" "M_L2"
+			(at 22.86 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 20.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 82.55 36.83 0)
 		(mirror y)
@@ -7275,6 +7613,70 @@
 			(project "pfm-keyboard"
 				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
 					(reference "SW_LC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc080e1-6483-42e4-903a-d713d2a1982d")
+		(property "Reference" "M_R4"
+			(at 45.72 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_R4")
 					(unit 1)
 				)
 			)
@@ -7765,6 +8167,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9113ce3d-1d33-4963-8de6-4e8d77d2c89b")
+		(property "Reference" "M_R3"
+			(at 45.72 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 190.5 101.6 0)
 		(mirror y)
@@ -7899,6 +8365,70 @@
 			(project "pfm-keyboard"
 				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
 					(reference "SW_RF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5545dd5-4ea3-4ecb-86e9-ef2208578eb1")
+		(property "Reference" "M_R1"
+			(at 45.72 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_R1")
 					(unit 1)
 				)
 			)
@@ -8599,6 +9129,70 @@
 			(project "pfm-keyboard"
 				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 20.32 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f84c1f-b2a8-412e-b332-5b991edcdc42")
+		(property "Reference" "M_L1"
+			(at 22.86 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 22.86 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 20.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 20.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pfm-keyboard"
+				(path "/58571878-d3b3-4b88-ba6f-b5700222d98b"
+					(reference "M_L1")
 					(unit 1)
 				)
 			)
