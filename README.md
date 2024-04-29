@@ -2,7 +2,18 @@
 
 This repo contains the hardware design for the PFM (Perfect For Me) keyboard.  This is a 38 key split keyboard which - as hinted by the name - is designed specifically for me, my hands, my typing habits and so on.  Despite the name, it is not perfect.
 
+
+![Shape](/assets/shape.svg)
+
 The keyboard is based on the [frood microcontroller](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/) which allows the use of 38 keys without any diodes.
+
+QMK based firmware for this board is available in the [pfm-keyboard-fw](https://github.com/netnook/pfm-keyboard-fw) repo.
+
+## Schematic
+
+![Schematic](/assets/schematic.svg)
+
+[Schematic as PDF](/assets/schematic.pdf)
 
 ## Parts
 
