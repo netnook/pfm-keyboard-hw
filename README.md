@@ -20,6 +20,9 @@ spaced a little further up)
 Together this reduces overstretching leading to better comfort and reduces the need for hand movement and my tendency to loose my home position when I do so.
 Despite the name, it is still not perfect.
 
+*Note: I actually don't use the fourth (lowest) key in the middle finger column - my middle finger does not seem to be able to memorize 2 different downward 
+travel distances - and it will likely be removed in a future version.*
+
 The keyboard is based on the [frood microcontroller](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/) which allows the use of 38 keys without any diodes.
 
 The board uses MX keys both with hot-swap sockets or directly soldered.
